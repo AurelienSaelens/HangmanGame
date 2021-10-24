@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <title>Hangman</title>
+</head>
+<body>
+    <h1>Hangman</h1>
+    <p>Trouve le mot caché - Entre une lettre à la fois!</p>
+    <div class="draw">
+        <svg width="70" height="70" viewBox="0 0 70 70" fill="none" id="svg1" xmlns="http://www.w3.org/2000/svg">
+            <circle id="Ellipse 1" cx="35" cy="35" r="35" fill="black"/>
+        </svg>
+        <svg width="6" height="129" viewBox="0 0 6 129" fill="none" id="svg2" xmlns="http://www.w3.org/2000/svg">
+            <rect id="Rectangle 1" width="6" height="129" fill="black"/>
+        </svg>
+        <svg width="37" height="59" viewBox="0 0 37 59" fill="none" id="svg3" xmlns="http://www.w3.org/2000/svg">
+            <rect id="Rectangle 2" x="5.51107" y="58.2601" width="6.36364" height="62.8904" transform="rotate(-150 5.51107 58.2601)" fill="black"/>
+        </svg>
+        <svg width="38" height="59" viewBox="0 0 38 59" fill="none" id="svg4" xmlns="http://www.w3.org/2000/svg">
+            <rect id="Rectangle 3" x="37.5699" y="55.0783" width="6.36364" height="62.8904" transform="rotate(150 37.5699 55.0783)" fill="black"/>
+        </svg>
+        <svg width="37" height="59" viewBox="0 0 37 59" fill="none" id="svg5" xmlns="http://www.w3.org/2000/svg">
+            <rect id="Rectangle 4" x="5.51107" y="58.2601" width="6.36364" height="62.8904" transform="rotate(-150 5.51107 58.2601)" fill="black"/>
+        </svg>
+        <svg width="38" height="59" viewBox="0 0 38 59" fill="none" id="svg6" xmlns="http://www.w3.org/2000/svg">
+            <rect id="Rectangle 5" x="37.5699" y="55.0783" width="6.36364" height="62.8904" transform="rotate(150 37.5699 55.0783)" fill="black"/>
+        </svg>
+        <svg width="374" height="16" viewBox="0 0 374 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect id="Rectangle 6" width="374" height="16" fill="black"/>
+        </svg>
+            <svg width="2" height="93" viewBox="0 0 2 93" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect id="Rectangle 7" width="2" height="93" fill="black"/>
+            </svg>
+        <svg width="12" height="330" viewBox="0 0 12 361" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect id="Rectangle 8" width="12" height="330" fill="black"/>
+        </svg>
+                    
+                
+    </div>
+    <div class="traits" id="traits">
+        <h3>S</h3>
+        <h3>T</h3>
+        <h3>A</h3>
+        <h3>R</h3>
+        <h3>T</h3>
+        <h3> </h3>
+        <h3>T</h3>
+        <h3>H</h3>
+        <h3>E</h3>
+        <h3> </h3>
+        <h3>G</h3>
+        <h3>A</h3>
+        <h3>M</h3>
+        <h3>E</h3>
+        <h3>!</h3>
+    </div>
+
+    <div class="buttons">
+        <a href="" id="a" class="button-letter">A</a>
+        <a href="" id="b" class="button-letter">B</a>
+        <a href="" id="c" class="button-letter">C</a>
+        <a href="" id="d" class="button-letter">D</a>
+        <a href="" id="e" class="button-letter">E</a>
+        <a href="" id="f" class="button-letter">F</a>
+        <a href="" id="g" class="button-letter">G</a>
+        <a href="" id="h" class="button-letter">H</a>
+        <a href="" id="i" class="button-letter">I</a>
+        <a href="" id="j" class="button-letter">J</a>
+        <a href="" id="k" class="button-letter">K</a>
+        <a href="" id="l" class="button-letter">L</a>
+        <a href="" id="m" class="button-letter">M</a>
+        <a href="" id="n" class="button-letter">N</a>
+        <a href="" id="o" class="button-letter">O</a>
+        <a href="" id="p" class="button-letter">P</a>
+        <a href="" id="q" class="button-letter">Q</a>
+        <a href="" id="r" class="button-letter">R</a>
+        <a href="" id="s" class="button-letter">S</a>
+        <a href="" id="t" class="button-letter">T</a>
+        <a href="" id="u" class="button-letter">U</a>
+        <a href="" id="v" class="button-letter">V</a>
+        <a href="" id="w" class="button-letter">W</a>
+        <a href="" id="x" class="button-letter">X</a>
+        <a href="" id="y" class="button-letter">Y</a>
+        <a href="" id="z" class="button-letter">Z</a>
+    </div>
+    <div id="" class="startbutton">
+        <a href="" id="button-start">START</a>
+    </div>
+   <div class="alertdark" id="alert">
+    <div class="alert">
+        <h1 id="text">bravo</h1>
+        <a href="" id="button-restart">RESTART</a>
+    </div>
+   </div>
+                                          
+            
+        
+    
+</body>
+    <script src="script.js"></script>
+</html>
