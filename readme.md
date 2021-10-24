@@ -1,1 +1,1 @@
-## This is a simple Hangman with JavaScript
+## This is a simple Hangman with JavaScript.
